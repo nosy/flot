@@ -172,7 +172,7 @@ $.plot(placeholder, data, options);
 ```
 
 
-## Customizing the legend ##
+## 自定义说明 ##
 
 ```js
 legend: {
@@ -724,7 +724,7 @@ if axis.tickSize is [2, "day"] in the tick formatter, the ticks have
 been produced with two days in-between.
 
 
-## Customizing the data series ##
+## 自定义数据序列 ##
 
 ```js
 series: {
@@ -859,7 +859,7 @@ If there are more data series than colors, Flot will try to generate
 extra colors by lightening and darkening colors in the theme.
 
 
-## Customizing the grid ##
+## 自定义网格 ##
 
 ```js
 grid: {
@@ -1040,7 +1040,7 @@ default is capped to 60 frames per second. You can set it to -1 to
 disable the rate limiting.
 
 
-## Specifying gradients ##
+## 指定梯度 ##
 
 A gradient is specified like this:
 
@@ -1082,7 +1082,7 @@ Flot currently only supports vertical gradients drawn from top to
 bottom because that's what works with IE.
 
 
-## Plot Methods ##
+## Plot 方法 ##
 
 The Plot object returned from the plot function has some methods you
 can call:
@@ -1244,7 +1244,7 @@ Flot to keep track of its state, so be careful.
     setupGrid() or triggerRedrawOverlay() to see the change.
     
 
-## Hooks ##
+## 钩子 ##
 
 In addition to the public methods, the Plot object also has some hooks
 that can be used to modify the plotting process. You can install a
@@ -1470,7 +1470,7 @@ hooks in the plugins bundled with Flot.
     the [PLUGINS](PLUGINS.md) document for more info.
 
    
-## Plugins ##
+## 插件 ##
 
 Plugins extend the functionality of Flot. To use a plugin, simply
 include its Javascript file after Flot in the HTML page.
@@ -1489,10 +1489,10 @@ from the "option" attribute of the plugin. The init function gets a
 reference to the plot object created and uses this to register hooks
 and add new public methods if needed.
 
-See the [PLUGINS](PLUGINS.md) document for details on how to write a plugin. As the
+See the [插件](PLUGINS.md) document for details on how to write a plugin. As the
 above description hints, it's actually pretty easy.
 
 
-## Version number ##
+## 版本号 ##
 
 The version number of Flot is available in ```$.plot.version```.
