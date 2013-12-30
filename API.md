@@ -1,6 +1,6 @@
 # Flot Reference #
 
-**Table of Contents**
+**索引**
 
 [Introduction](#introduction)
 | [Data Format](#data-format)
@@ -19,7 +19,7 @@
 
 ---
 
-## Introduction ##
+## 介绍 ##
 
 Consider a call to the plot function:
 
@@ -53,7 +53,7 @@ objects you pass in to the plot function or get out of it since
 they're not necessarily deep-copied.
 
 
-## Data Format ##
+## 数据格式 ##
 
 The data is an array of data series:
 
