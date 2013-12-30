@@ -155,7 +155,7 @@ Here's a complete example of a simple data specification:
 ```
 
 
-## Plot Options ##
+## Plot 选项 ##
 
 All options are completely optional. They are documented individually
 below, to change them you just specify them in an object, e.g.
@@ -238,7 +238,7 @@ sorted: function(a, b) {
 ```
 
 
-## Customizing the axes ##
+## 自定义轴线 ##
 
 ```js
 xaxis, yaxis: {
@@ -486,7 +486,7 @@ ends. The trade-off is that the forced ticks won't necessarily be at
 natural places.
 
 
-## Multiple axes ##
+## 多轴线 ##
 
 If you need more than one x axis or y axis, you need to specify for
 each data series which axis they are to use, as described under the
@@ -521,7 +521,7 @@ use (starting from 1), or lets you specify the coordinate directly as
 x2/x3/... or x2axis/x3axis/... instead of "x" or "xaxis".
 
 
-## Time series data ##
+## 时间序列数据 ##
 
 Please note that it is now required to include the time plugin,
 jquery.flot.time.js, for time series support.
