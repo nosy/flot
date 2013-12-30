@@ -1,6 +1,6 @@
 # Flot [![Build status](https://travis-ci.org/flot/flot.png)](https://travis-ci.org/flot/flot)
 
-## About ##
+## 简介 ##
 
 Flot is a Javascript plotting library for jQuery.  
 Read more at the website: <http://www.flotcharts.org/>
@@ -10,7 +10,7 @@ impression of what Flot can do, and the source code of the examples is probably
 the fastest way to learn how to use Flot.
 
 
-## Installation ##
+## 安装 ##
 
 Just include the Javascript file after you've included jQuery.
 
@@ -40,7 +40,7 @@ You need at least jQuery 1.2.6, but try at least 1.3.2 for interactive
 charts because of performance improvements in event handling.
 
 
-## Basic usage ##
+## 基本用法 ##
 
 Create a placeholder div to put the graph in:
 
