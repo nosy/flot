@@ -83,7 +83,7 @@ The plot function immediately draws the chart and then returns a plot
 object with a couple of methods.
 
 
-## What's with the name? ##
+## 名字是什么意思? ##
 
 First: it's pronounced with a short o, like "plot". Not like "flawed".
 
@@ -95,7 +95,7 @@ the words that come up are "good-looking", "attractive", "stylish",
 is pretty looks.
 
 
-## Notes about the examples ##
+## 有关例子注释 ##
 
 In order to have a useful, functional example of time-series plots using time
 zones, date.js from [timezone-js][timezone-js] (released under the Apache 2.0
