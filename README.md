@@ -5,21 +5,17 @@
 Flot是一个jQuery的Javascript绘图库。
 更多信息查看网站: <http://www.flotcharts.org/>
 
-Take a look at the the examples in examples/index.html; they should give a good
-impression of what Flot can do, and the source code of the examples is probably
-the fastest way to learn how to use Flot.
+查看例子examples/index.html;告诉你如何工作,查看源码可以快速学习如何使用.
 
 
 ## 安装 ##
 
-Just include the Javascript file after you've included jQuery.
+在jQuery文件之后包含Js文件就可以了.
 
-Generally, all browsers that support the HTML5 canvas tag are
-supported.
+一般,支持HTML5 canvas都支持.
 
-For support for Internet Explorer < 9, you can use [Excanvas]
-[excanvas], a canvas emulator; this is used in the examples bundled
-with Flot. You just include the excanvas script like this:
+如果想支持IE9以下, 可以使用[Excanvas]
+[excanvas], canvas仿真器;脚本文件可以这样使用:
 
 ```html
 <!--[if lte IE 8]><script language="javascript" type="text/javascript" src="excanvas.min.js"></script><![endif]-->
@@ -42,15 +38,13 @@ charts because of performance improvements in event handling.
 
 ## 基本用法 ##
 
-Create a placeholder div to put the graph in:
+创建一个占位符来放置图表:
 
 ```html
 <div id="placeholder"></div>
 ```
 
-You need to set the width and height of this div, otherwise the plot
-library doesn't know how to scale the graph. You can do it inline like
-this:
+你需要设置div宽高,否则plot库不知道如何缩放图表. 可以这样写:
 
 ```html
 <div id="placeholder" style="width:600px;height:300px"></div>
@@ -62,8 +56,7 @@ in that case, Flot has trouble measuring label dimensions which
 results in garbled looks and might have trouble measuring the
 placeholder dimensions which is fatal (it'll throw an exception).
 
-Then when the div is ready in the DOM, which is usually on document
-ready, run the plot function:
+文档加载完后运行plot函数:
 
 ```js
 $.plot($("#placeholder"), data, options);
