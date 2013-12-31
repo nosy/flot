@@ -2,10 +2,7 @@
 
 **索引**
 
-[介绍][] | [数据格式][] | Plot选项[^1] | 自定义说明[^2] | 自定义轴线[^3]
-| 自定义轴线[^4] | 自定义轴线[^5] | 自定义数据序列[^6] |
-[自定义网格][][^7] | [制定梯度][][^8] | [Plot方法][][^9] | [钩子][][^10]
-| [插件][][^11] | [版本][][^12]
+[介绍](#介绍) | [数据格式](#数据格式) | [Plot选项](#Plot选项) | [自定义说明](#自定义说明) | [自定义轴线](#自定义轴线) | [自定义轴线](#自定义轴线) | [自定义轴线](#自定义轴线) | [自定义数据序列](#自定义数据序列) | [自定义网格](#自定义网格) | [制定梯度](#制定梯度) | [Plot方法](#Plot方法) | [钩子](#钩子) | [插件](#插件) | [版本](#版本)
 
 ## 介绍
 
@@ -125,7 +122,7 @@ Here's a complete example of a simple data specification:
       { label: "Bar", data: [ [11, 13], [19, 11], [30, -7] ] }
     ]
 
-## Plot 选项
+## Plot选项
 
 All options are completely optional. They are documented individually
 below, to change them you just specify them in an object, e.g.
