@@ -2,8 +2,8 @@
 
 **索引**
 
-[Introduction](#introduction)
-| [Data Format](#data-format)
+[介绍](#介绍)
+| [数据格式](#data-format)
 | [Plot Options](#plot-options)
 | [Customizing the legend](#customizing-the-legend)
 | [Customizing the axes](#customizing-the-axes)
